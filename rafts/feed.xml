@@ -5,14 +5,14 @@
     <description></description>
     <link>https://daviad.github.io/</link>
     <atom:link href="https://daviad.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jun 2017 17:21:05 +0800</pubDate>
-    <lastBuildDate>Thu, 01 Jun 2017 17:21:05 +0800</lastBuildDate>
+    <pubDate>Mon, 13 Feb 2017 19:33:28 +0800</pubDate>
+    <lastBuildDate>Mon, 13 Feb 2017 19:33:28 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
         <title>Jekyll 搭建静态博客</title>
         <description>
-一直以来都想搭建一个自己的博客，最近在知乎上看到一些关于jekyll的内容，于是选择了在github上用jekyll搭建博客。
+一直以来都想搭建一个自己的博客，但是近半年做项目太忙，再加上教研室的网络很坑爹，所以也一直没顾得上。之前用过 WordPress 托管在免费的京东云擎上，但是速度太慢。在知乎上看到一些相关的内容，于是选择了在github上用jekyll搭建博客。
 
 </description>
         <pubDate>Mon, 16 Feb 2015 06:14:54 +0800</pubDate>
