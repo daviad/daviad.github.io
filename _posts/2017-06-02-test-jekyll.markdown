@@ -42,10 +42,12 @@ gem install bundler
 
 
 这篇文章会持续更新，使用jekyll 的心得。
-
 心得：
 1.纸上得来终觉浅， 绝知此事要躬行。  
 2.学习东西，最好能够看原版，其他，资料为辅助。
+
+update  
+1.jekyll 草稿的使用。中文文档的： 运行 jekyll serve 或者带有 --drafts 配置选项的 jekyll build。翻译有些问题，请看英文文档。 server命令后也要加 \-\-drafts 不然看不到草稿的。
 
 #### insert picture
 ![test picture]({{site.url}}/images/test.png)
