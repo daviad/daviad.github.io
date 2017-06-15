@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "node.js 的使用笔记"
+---
+# 前言
+
+最近学习weex的使用，用到了很多node的知识，做一些笔记。
+
+# 简介
+* node.js 是用C++编写的javascript的解释器，运行环境。
+* node.js 是基于V8引擎开发的
+* node.js 是一个事件驱动I/O服务端JavaScript环境
+* node.js 让javascript可以编写后台程序
+
+# 使用
+## 常用，感到疑惑的命令
+
+# 常规使用
+* [node简单教程](http://www.runoob.com/nodejs/nodejs-tutorial.html)
+* 安装
+* 查看
+
+

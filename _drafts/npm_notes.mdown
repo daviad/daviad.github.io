@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "npm 使用笔记"
+---
+# 前言
+
+最近学习weex的使用，用到了很多npm的知识，做一些笔记。
+
+# 简介
+
+npm 是 nodejs 的包管理和分发工具。它 可以让 javascript 开发者能够更加轻松的共享代码和共用代码片段，并且通过 npm 管理你分享的代码也很方便快捷和简单。   
+[官网：](https://www.npmjs.com) 
+>What is npm?
+Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others. 
+
+# 使用
+
+## 常用并感到疑惑的命令
+* npm run XXX 是执行配置在package.json中的脚本
+  ```
+  ...
+  ...
+   "scripts": {
+    "postinstall": "bash ./scripts/install-hooks.sh",
+    "build:native": "node build/build.js native",
+    "build:runtime": "node build/build.js runtime",
+    "install:buildtools": "npm i rollup rollup-watch rollup-plugin-buble rollup-plugin-json rollup-plugin-eslint rollup-plugin-commonjs rollup-plugin-flow rollup-plugin-flow-no-whitespace rollup-plugin-postcss rollup-plugin-replace rollup-plugin-uglify rollup-plugin-node-resolve wwp flow-bin babel-core babel-eslint babel-istanbul babel-loader babel-plugin-coverage babel-preset-es2015 babel-runtime eslint-plugin-flowtype",
+    "build:source": "npm run build:native && npm run build:browser && node build/build.js vue",
+    "build:browser": "wwp && node build/build.js browser",
+    "build:browser:common": "rollup -c build/rollup.browser.common.config.js",
+    "build:vue": "flow check && node build/build.js vue",
+    "build:examples": "npm run build:examples:native && npm run build:examples:web",
+    "build:examples:native": "webpack --config build/webpack.examples.config.js"
+    ...
+    ...
+    }
+  ```
+
+* 更新 update your npm, type this into your terminal:  
+  `npm install npm@latest -g`
+
+* man 手册
+* npm 提供了两种包的安装形式：局部安装和全局安装。你可以通过你的项目使用情况选择如何安装。如果你的项目依赖于某个包，那么建议将改包安装到局部。其他其他条件下，比如你要在命令行工具中使用这个包，可选择在全局安装。  -g:全局
+
+# 常规使用 
+* [帮助文档](https://docs.npmjs.com/getting-started/installing-npm-packages-locally)
+* 安装
+* 查看
