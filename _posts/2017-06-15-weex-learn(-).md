@@ -5,10 +5,10 @@ title:  "weex原理学习（-）"
 
 # 前言
 1. 如果没有weex 我们掌大是如何 做的？  
-比如： 话题 IOS跳转 :  
+比如： IOS页面跳转 :  
 
  ```
- objc://loocha?json={"module":"PostBrowserController","argArr":[{"message_type":"15","message": "20881703"}]}
+ objcTest://schemaTest?json={"module":"xxxController","argArr":[{"message_type":"15","message": "20881703"}]}
 
  - (id)initWithJs:(NSDictionary)dic{};
  ```
