@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "subline text 的使用笔记"
+---
+# 前言
+
+工作中有些功能和快捷键常用，但自己又容易忘记。故，记录下来
+
+* cmd+shift+p ： page control, 很多插件的命令也可以在这操作,如：install remove 等
+* SumlimeText -> Preferences -> Browse packages 可以看到安装的包，很多安装的插件都可以在这找到（多进去看看）
+* cmd + p : 跳转到任意位置。可以结合各种命令
+  1. 输入文件名
+  2. 输入路径+文件名
+  3. 输入文件名+：+行号 / :  跳到某一行 
+  4. 文件名+@+函数名
+  5.文件名+#+查找字符串
+* cmd + 数字 ：打开的各个文件的跳转 
+* cmd + , ：个人设置
+* Ctrl + 0 ：Give the focus to the side bar	
+  1. Ctr+B 或者 <-折叠文件夹
+  2. Ctr+F 或者 ->  展开文件夹 
+* Esc ：Return the focus to the view	
+* sublime text 拥有编译系统。相关muenu Tools ->Build... 可以定制很多命令。Python3的添加。可以看官网介绍	 
+* cmd+k,j / cmd+k,num     cmd+alt+[/cmd+alt+]展开/折叠代码 Edit -> code folding
+
+#### [多读官方文档](https://www.sublimetext.com/docs/3/index.html "office doc")
+
+# 使用 Sublime + PlantUML 高效地画图
+[参考](https://www.jianshu.com/p/e92a52770832)
+
+to:如何查看这些安装的包的使用文档
+
+Package Control Messages
+========================
+
+auto-save
+---------
+
+  Thank you for installing AutoSave
+  ----------------------------------------
+  
+  You're one step closer to having your files save automatically after every modification!
+  
+  
+  Documentation
+  =============
+  The plugin is dead simple. When turned on, the current file you are viewing will
+  save automatically as you modify it. In other words, the file saves after every keystroke.
+  The plugin is turned off by default since it is so invasive. You may enable it by adding
+  a key binding to the "auto_save" command in "Preferences / Key Bindings - User", for example:
+  
+  { "keys": ["ctrl+shift+s"], "command": "auto_save" }
+  
+  See links below for more help.
+  
+  Useful Links
+  ============
+  * Documentation & Code: https://github.com/jamesfzhang/auto-save
+  * Report issues: https://github.com/jamesfzhang/auto-save/issues
+  * Follow me on Twitter: @jamesfzhang

@@ -16,6 +16,10 @@ title:  "node.js 的使用笔记"
 ## 常用，感到疑惑的命令
 
 # 常规使用
+* debug:三种方式：
+  1. debugger， node debug example.js 就可以进入调试模式。repl
+  2. 基于V8插件的调试器 重新编译源码
+  3. 基于Chrome浏览器的调试器 npm来安装node-inspector
 * [node简单教程](http://www.runoob.com/nodejs/nodejs-tutorial.html)
 * 安装
 * 查看

@@ -1,9 +1,0 @@
----
-layout: post
-title:  "subline text 的使用笔记"
----
-# 前言
-
-工作中有些功能和快捷键常用，但自己又容易忘记。故，记录下来
-
-* cmd+shift+p ： page control 

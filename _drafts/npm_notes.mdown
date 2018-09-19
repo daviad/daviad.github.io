@@ -16,7 +16,12 @@ Use npm to install, share, and distribute code; manage dependencies in your proj
 # 使用
 
 ## 常用并感到疑惑的命令
+
+* npm run 是 npm run-script 的缩写。
+* npm run 会创建一个Shell，执行指定的命令，并临时将node_modules/.bin加入PATH 变量，这意味着本地模块可以直接运行。
 * npm run XXX 是执行配置在package.json中的脚本
+* package.json 中的 scripts 执行的脚本是本地项目内 node_modules -> .bin 内的脚本。
+
   ```
   ...
   ...
